@@ -1,5 +1,5 @@
 var itemlist;
-
+var listrkfkfkf;
 const productName = document.getElementById('productName');
 const Descriptiontext = document.getElementById('Description');
 const pricevalue = document.getElementById('price');

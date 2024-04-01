@@ -35,7 +35,7 @@
         z-index: 0;
       }
     </style>
-    <script type="module" crossorigin src="./assets/index-Du7ma0nQ.js"></script>
+    <script type="module" crossorigin src="./assets/index-CfA457JU.js"></script>
   </head>
   <body>
     <script
@@ -87,6 +87,8 @@
           <hr />
           <div id="fnjv12"><h1>Watch</h1></div>
           <hr />
+          <div id="ffjv12"><h1>Rose</h1></div>
+          <hr />
           <div id="vkfjg4"><h1>shirt</h1></div>
         </div>
       </div>
@@ -97,10 +99,44 @@
     <button
       type="button"
       class="btn btn-primary btn-md-lg position-fixed top-0 end-0 mt-4 mx-md-5 mx-4"
+      data-bs-toggle="modal" data-bs-target="#exampleModal"
+      id="populateButton"
     >
-      View Cart
-      <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill text-bg-secondary" id="num_element">0</span>
+      View Gift Box
+      <!-- <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill text-bg-secondary" id="num_element">0</span> -->
     </button>
+    <div>
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-4" id="exampleModalLabel">Gift Box</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table id="myTable" class="table table-striped">
+                <thead>
+                  <tr>
+                    <th scope="col"></th>
+                    <th scope="col">Item Name</th>
+                    <th scope="col">Charm</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Price</th>
+                  </tr>
+                </thead>
+                <tbody>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Proceed</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <br />
     <br />
     <br />
@@ -140,7 +176,7 @@
               </button>
               <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="dropdownMenu">
               </ul>
-              <button type="button" class="btn btn-success m-2">Add To Cart</button>
+              <button type="button" class="btn btn-success m-2" id="addtocart">Add To Cart</button>
             </div>
           </div>
         </div>

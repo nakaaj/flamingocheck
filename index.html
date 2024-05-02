@@ -96,15 +96,14 @@
 
     <canvas id="c" data-engine="three.js r161" class="z-0"></canvas>
 
-    <button
+<!--     <button
       type="button"
       class="btn btn-primary btn-md-lg position-fixed top-0 end-0 mt-4 mx-md-5 mx-4"
       data-bs-toggle="modal" data-bs-target="#exampleModal"
       id="populateButton"
     >
       View Gift Box
-      <!-- <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill text-bg-secondary" id="num_element">0</span> -->
-    </button>
+    </button> -->
     <div>
       <!-- Modal -->
       <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -176,7 +175,7 @@
               </button>
               <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="dropdownMenu">
               </ul>
-              <button type="button" class="btn btn-success m-2" id="addtocart">Add To Cart</button>
+              <button type="button" class="btn btn-success m-2" id="addtocart" onclick="alert('Item added to gift box!')">Add To Cart</button>
             </div>
           </div>
         </div>
